@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="影像禹州 - 用镜头记录禹州四季之美，展示千年古都的独特魅力">
+    <meta name="keywords" content="禹州摄影,禹州风光,钧瓷艺术,古镇景观,禹州四季">
+    <title>影像禹州 - 禹州文旅</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">禹</span>
+                <span class="logo-text">禹州文旅</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="切换菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="cuisine.html" class="nav-link">禹州美食</a></li>
+                <li><a href="attractions.html" class="nav-link">景点推荐</a></li>
+                <li><a href="culture.html" class="nav-link">三都文化</a></li>
+                <li><a href="gallery.html" class="nav-link active">影像禹州</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=1920&h=800&fit=crop');">
+        <div class="page-header-overlay"></div>
+        <h1 class="page-title">影像禹州</h1>
+        <p class="page-subtitle">用镜头记录千年古都的四季之美</p>
+    </section>
+
+    <!-- Gallery Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">光影中的禹州</h2>
+                <p class="section-description">
+                    每一帧画面，都是禹州的故事。从春天的繁花似锦到冬日的银装素裹，
+                    从古镇的青砖黛瓦到钧瓷的窑变万千，让我们用镜头定格这座千年古都的独特魅力。
+                </p>
+            </div>
+
+            <!-- Gallery Filter -->
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="scenery">自然风光</button>
+                <button class="filter-btn" data-filter="ancient">古镇古韵</button>
+                <button class="filter-btn" data-filter="culture">文化艺术</button>
+                <button class="filter-btn" data-filter="food">美食特产</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- 自然风光 -->
+                <div class="gallery-item" data-category="scenery">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop" alt="大鸿寨山景" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">大鸿寨云海</h3>
+                            <p class="gallery-description">晨曦中的大鸿寨，云海翻腾如梦似幻</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="scenery">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop" alt="颍河夕照" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">颍河夕照</h3>
+                            <p class="gallery-description">落日余晖洒满河面，波光粼粼</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="scenery">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop" alt="森林秋色" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">金秋森林</h3>
+                            <p class="gallery-description">层林尽染，秋色迷人</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 古镇古韵 -->
+                <div class="gallery-item" data-category="ancient">
+                    <img src="https://images.unsplash.com/photo-1547448415-e9f5b28e570d?w=800&h=600&fit=crop" alt="神垕古镇" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">神垕古镇</h3>
+                            <p class="gallery-description">千年古镇，青砖黛瓦诉说历史</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="ancient">
+                    <img src="https://images.unsplash.com/photo-1528127269322-539801943592?w=800&h=600&fit=crop" alt="古街巷" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">古镇街巷</h3>
+                            <p class="gallery-description">石板路上的时光印记</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="ancient">
+                    <img src="https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=800&h=600&fit=crop" alt="古建筑" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">古韵建筑</h3>
+                            <p class="gallery-description">飞檐翘角，古色古香</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 文化艺术 -->
+                <div class="gallery-item" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&h=600&fit=crop" alt="钧瓷窑变" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">钧瓷窑变</h3>
+                            <p class="gallery-description">入窑一色，出窑万彩的神奇艺术</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&h=600&fit=crop" alt="钧瓷作品" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">钧瓷珍品</h3>
+                            <p class="gallery-description">巧夺天工的艺术珍品</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop" alt="传统工艺" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">匠心传承</h3>
+                            <p class="gallery-description">世代相传的钧瓷烧制技艺</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 美食特产 -->
+                <div class="gallery-item" data-category="food">
+                    <img src="images/禹州十三碗.png" alt="禹州十三碗" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">禹州十三碗</h3>
+                            <p class="gallery-description">传承千年的宴席文化</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800&h=600&fit=crop" alt="中药材" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">道地药材</h3>
+                            <p class="gallery-description">华夏药都的珍贵药材</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="food">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop" alt="特色美食" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">地道美味</h3>
+                            <p class="gallery-description">禹州特色风味小吃</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="scenery">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop" alt="春日花海" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">春日花海</h3>
+                            <p class="gallery-description">万物复苏，繁花似锦</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="ancient">
+                    <img src="https://images.unsplash.com/photo-1549693578-d683be217e58?w=800&h=600&fit=crop" alt="夜色古镇" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">古镇夜色</h3>
+                            <p class="gallery-description">华灯初上，古镇别样风情</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="culture">
+                    <img src="https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?w=800&h=600&fit=crop" alt="文化活动" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">民俗文化</h3>
+                            <p class="gallery-description">传统文化活动精彩纷呈</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photography Tips -->
+    <section class="section section-gray">
+        <div class="container">
+            <h2 class="section-title">摄影指南</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">📸</div>
+                    <h3 class="tip-title">最佳拍摄时间</h3>
+                    <p class="tip-text">
+                        <strong>春季（3-5月）：</strong>大鸿寨山花烂漫<br>
+                        <strong>夏季（6-8月）：</strong>颍河风光，绿意盎然<br>
+                        <strong>秋季（9-11月）：</strong>层林尽染，秋高气爽<br>
+                        <strong>冬季（12-2月）：</strong>雪景如画，银装素裹
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">🏞️</div>
+                    <h3 class="tip-title">推荐拍摄地点</h3>
+                    <p class="tip-text">
+                        <strong>神垕古镇：</strong>清晨和傍晚光线柔和<br>
+                        <strong>大鸿寨：</strong>日出云海最为壮观<br>
+                        <strong>钧窑遗址：</strong>展现传统工艺之美<br>
+                        <strong>颍河沿岸：</strong>夕阳倒影如诗如画
+                    </p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">💡</div>
+                    <h3 class="tip-title">拍摄小贴士</h3>
+                    <p class="tip-text">
+                        • 尊重当地文化和居民隐私<br>
+                        • 携带广角镜头捕捉壮丽风光<br>
+                        • 使用三脚架拍摄夜景和长曝光<br>
+                        • 关注天气变化，雨后初晴景色最美
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container text-center">
+            <h2 class="cta-title">分享您的禹州记忆</h2>
+            <p class="cta-text">如果您也拍摄了精彩的禹州照片，欢迎与我们分享</p>
+            <div class="cta-buttons">
+                <a href="attractions.html" class="btn btn-white">探索景点</a>
+                <a href="culture.html" class="btn btn-outline-white">了解文化</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 class="footer-title">关于禹州</h4>
+                    <p class="footer-text">
+                        禹州，中国历史文化名城，因大禹治水有功受封于此而得名。
+                        这里是夏朝建都之地，钧瓷发源地，中药材集散地。
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">快速链接</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="cuisine.html">禹州美食</a></li>
+                        <li><a href="attractions.html">景点推荐</a></li>
+                        <li><a href="culture.html">三都文化</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">特色文化</h4>
+                    <ul class="footer-links">
+                        <li><a href="culture.html">夏都文化</a></li>
+                        <li><a href="culture.html">钧都文化</a></li>
+                        <li><a href="culture.html">药都文化</a></li>
+                        <li><a href="attractions.html">旅游景点</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">联系方式</h4>
+                    <ul class="footer-contact">
+                        <li>📍 河南省许昌市禹州市</li>
+                        <li>📞 0374-8888888</li>
+                        <li>✉️ info@yuzhou-travel.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 禹州体验. 保留所有权利</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
